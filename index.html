@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <!-- swiper -->
+
+    <title>Connectr</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h2 class="navbar-logo"><a href="#">CONNECTR</a></h2>
+        <div class="navbar-menu">
+            <a href="#jobs">Jobs</a>
+            <a href="#companies">Companies</a>
+            <a href="#testimony">Testimonial</a>
+            <a href="#blog">Blogs</a>
+            <a href="#">Sign In</a>
+        </div>
+        <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <!-- header -->
+    <header>
+        <h1 class="header-title">
+            FIND YOUR <br> <span>PERFECT JOB</span> <BR> EASILY
+        </h1>
+    </header>
+
+    <div class="search-wrapper">
+        <div class="search-box">
+            <div class="search-card">
+                <input class="search-input" type="text" placeholder="Job title or keywords">
+                <button class="search-button">Search</button>
+            </div>        
+        </div>
+    </div>
+    <!-- filter box -->
+    <div class="filter-box">
+        <div class="filter-dropdown">
+            <select class="filter-select" name="job-level" id="job-level">
+                <option>Job Level</option>
+                <option>Entry</option>
+                <option>Mid-Senior</option>
+                <option>Director</option>
+            </select>
+            <select class="filter-select" name="job-function" id="job-function">
+                <option>Job Function</option>
+                <option>IT</option>
+                <option>Management</option>
+                <option>Education</option>
+            </select>
+            <select class="filter-select" name="employment" id="employment">
+                <option>Employment Type</option>
+                <option>Internship</option>
+                <option>Part Time</option>
+                <option>Full Time</option>
+            </select>
+            <select class="filter-select" name="location" id="location">
+                <option>Location</option>
+                <option>Remote</option>
+                <option>South Africa</option>
+                <option>US</option>
+            </select>
+            <select class="filter-select" name="education" id="education">
+                <option>Education</option>
+                <option>Matric</option>
+                <option>Degree</option>
+                <option>Master's</option>
+            </select>
+        </div>
+        <div class="filter-chosen">
+            <div class="chosen-card">
+                Remote <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Full time <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Financial Tech <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Entry Level <i class="fas fa-times-circle"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- job listing -->
+    <section class="job-list" id="jobs">
+       <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="assets/government.jpg">
+                <div class="job-detail">
+                    <h4>Department of Education</h4>
+                    <h3>Teacher</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eum quo sequi ex perspiciatis sapiente, quis qui reiciendis facere delectus omnis iusto eaque, ipsa minima natus architecto quos sunt asperiores.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div> 
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="assets/government.jpg">
+                <div class="job-detail">
+                    <h4>Department of Home Affairs</h4>
+                    <h3>Director</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eum quo sequi ex perspiciatis sapiente, quis qui reiciendis facere delectus omnis iusto eaque, ipsa minima natus architecto quos sunt asperiores.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div> 
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="assets/government.jpg">
+                <div class="job-detail">
+                    <h4>Statistics SA</h4>
+                    <h3>Accountant</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eum quo sequi ex perspiciatis sapiente, quis qui reiciendis facere delectus omnis iusto eaque, ipsa minima natus architecto quos sunt asperiores.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div> 
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="assets/government.jpg">
+                <div class="job-detail">
+                    <h4>Department of Agriculture and Rural Development</h4>
+                    <h3>HOD</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eum quo sequi ex perspiciatis sapiente, quis qui reiciendis facere delectus omnis iusto eaque, ipsa minima natus architecto quos sunt asperiores.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div> 
+        <button class="job-more">
+            More Listings
+        </button>
+    </section>
+
+    <!-- join -->
+    <section class="join">
+        <div class="join-detail">
+            <h1 class="section-title">START YOUR NEW JOB WITH US</h1>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, consequatur magnam hic quos rerum vero animi et ducimus deserunt, necessitatibus facere molestiae odio, ipsam deleniti nisi possimus asperiores! Aliquid, rerum?</P>
+        </div>
+        <button class="join-button">Join Now</button>
+    </section>
+
+    <!-- featured company -->
+    <section class="featured" id="companies">
+        <h1 class="section-title">Featured Companies</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero alias veniam ipsam officia delectus quos? Nesciunt esse asperiores, ab ut expedita suscipit ex laudantium incidunt accusantium, eius alias consequatur? Dolorem!</p>
+        
+        <div class="featured-wrapper">
+            <div class="featured-card">
+                <img class="featured-img" src="assets/government.jpg">
+                <p>Government</p>
+                <button class="featured-button">View 2 jobs</button>
+            </div>
+
+            <div class="featured-card">
+                <img class="featured-img" src="assets/government.jpg">
+                <p>Government</p>
+                <button class="featured-button">View 2 jobs</button>
+            </div>
+
+            <div class="featured-card">
+                <img class="featured-img" src="assets/government.jpg">
+                <p>Government</p>
+                <button class="featured-button">View 6 jobs</button>
+            </div>
+
+            <div class="featured-card">
+                <img class="featured-img" src="assets/government.jpg">
+                <p>Government</p>
+                <button class="featured-button">View 10 jobs</button>
+            </div>
+
+            <div class="featured-card">
+                <img class="featured-img" src="assets/government.jpg">
+                <p>Government</p>
+                <button class="featured-button">View 5 jobs</button>
+            </div>
+
+            <div class="featured-card">
+                <img class="featured-img" src="assets/government.jpg">
+                <p>Government</p>
+                <button class="featured-button">View 10 jobs</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="testimony" id="testimony">
+        <h1 class="section-title">Testimonials</h1>
+        <p>Let's see what our clients say about us</p>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script href="app.js"></script>
+</body>
+</html>
