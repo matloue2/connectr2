@@ -14,3 +14,9 @@ $(document).ready(function () {
     }
   });
 });
+
+
+// Add active to Btn
+$('.filter-item').click(function(){
+    $(this).addClass("active-filter").siblings().removeClass("active-filter");
+})
