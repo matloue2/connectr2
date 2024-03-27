@@ -45,9 +45,9 @@ h1 {
 }
 
 .navbar-menu {
-    width: 400px;
+    width: 480px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 .navbar-menu > a {

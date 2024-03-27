@@ -12,8 +12,8 @@
 /* Variables */ 
 
 :root {
-    --container-color: #1a1e21;
-    --second-color: #fd8f44;
+    --container-color: #333;
+    --second-color: #ffd723;
     --text-color: #172317;
     --bg-color: #fff;
 }
@@ -81,7 +81,7 @@ header.shadow .logo {
     color: var(--second-color);
 }
 
-.login {
+.back-btn {
     padding: 8px 14px;
     text-transform: uppercase;
     font-weight: 500;
