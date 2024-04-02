@@ -287,6 +287,8 @@ header.shadow .logo {
     height: 420px;
     object-fit: cover;
     object-position: center;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
 }
 
 .post-content {
